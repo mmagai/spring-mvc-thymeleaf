@@ -20,7 +20,6 @@ public class PostController {
         this.postService = postService;
     }
 
-
     @GetMapping("/admin/getAllPost")
     public String getAllBlogPost(Model model){
 
